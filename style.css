@@ -1,0 +1,174 @@
+ #title h1 {
+     margin: 15px 0 0 0;
+     font-size: 28px;
+}
+ #title p {
+     margin: 5px 0;
+}
+ #scores {
+     display: table;
+     width: 100%;
+     margin: 5px 0;
+}
+ #i {
+     background-color: #ffff91;
+}
+ #m {
+     background-color: #737373;
+     color: #fff;
+}
+ #r {
+     background-color: #ff9696;
+}
+ #poster {
+     display: inline-block;
+     float: left;
+}
+ #details {
+     padding: 0 0 0 6px;
+     float: right;
+     display: inline-block;
+     width: calc(100% - 206px);
+     text-align: right;
+}
+ #summary {
+     padding: 10px;
+     background-color: #bfe9fc;
+}
+ #summary p {
+     margin: 0;
+}
+ .links {
+     margin: 0 0 0 5px;
+}
+ .link {
+     text-align: left;
+     border: 1px solid #9e9e9e;
+     border-top-width: 0;
+     padding: 2px 2px 2px 15px;
+     color: #000;
+     background-color: #e6e6e6;
+}
+ .file {
+     border-left: 5px solid #f44336;
+}
+ .green {
+     background-color: #badc94;
+}
+ .link p,.page p {
+     margin: 0;
+     font-size: 12px;
+     color: #7b7b7b;
+     direction: rtl;
+}
+ .dir {
+     border-left: 5px solid #03a9f4;
+}
+ .page {
+     background-color: #dadada;
+     text-align: left;
+     padding: 5px;
+     color: #000;
+     border: 1px solid #7c7c7c;
+     border-left-width: 5px;
+}
+ .filelabel {
+     font-size: 14px;
+     float: right;
+     background-color: #f44336;
+     padding: 2px 5px;
+}
+ .dirlabel {
+     font-size: 14px;
+     float: right;
+     background-color: #03a9f4;
+     padding: 2px 5px;
+}
+ #scores span{
+     display: table-cell;
+     width: 33.3%;
+     vertical-align: middle;
+     padding: 3px 0;
+}
+ #preload {
+     padding: 5px;
+     background-color: #7fbf7f;
+     margin-top: 3px;
+     display:none;
+}
+ #results div {
+     display: table;
+     width: 100%;
+     padding: 5px 0;
+     border-bottom: 1px solid #9c9c9c;
+}
+ #results a {
+     display: table-row;
+}
+ #results img {
+     float: left;
+     width: 50px;
+}
+ #results ul {
+     width: calc(100% - 50px);
+     float: right;
+     direction: rtl;
+     padding: 0;
+}
+ col.pad {
+     width: 25%;
+}
+ col.main{
+     width: 50%;
+}
+ li {
+     display: table;
+}
+ .links,.link {
+     word-break: break-all;
+     margin-top: 0 !important;
+}
+ #download div {
+     margin-top: 5px;
+}
+ 
+ a {
+     text-decoration: none;
+}
+ td {
+     padding: 1px;
+}
+ table {
+     border-spacing: 1px 1px;
+     text-align: center;
+     width: 100%;
+}
+ caption {
+    padding-top: 50px;
+}
+ #brand {
+    color: #A00000;
+}
+ #searchform {
+    width: 100%;
+}
+
+ @media screen and (max-width: 768px) {
+     col.pad {
+         width: 13%;
+    }
+     col.main{
+         width: 74%;
+    }
+}
+ @media screen and (max-width: 425px) {
+     col.pad {
+         width: 2%;
+    }
+     col.main{
+         width: 96%;
+    }
+     #poster,#details{
+         display:block;
+         width:100%;
+    }
